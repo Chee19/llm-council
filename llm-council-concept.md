@@ -209,6 +209,9 @@ Operational rules live in `.claude/council/protocols/intent-anchoring.md`.
  - Optimistic
  - Pragmatic
  - Paranoid
+ - Probabilistic
+ - Minimalist
+ - Idealistic
 
     │
     ▼
@@ -351,6 +354,7 @@ This distinction is fundamental.
 Agent
  ├── Role
  ├── Persona
+ ├── Soul
  ├── Expertise
  ├── Incentives
  ├── Objectives
@@ -384,6 +388,25 @@ A persona defines:
 - emotional weighting,
 - strategic style,
 - and reasoning behavior.
+
+## Soul
+
+A soul defines:
+
+- the agent's temperament,
+- and its rhetorical voice.
+
+The soul is a **tone-only layer**. It changes *how* an agent speaks — warm vs combative, spare vs urgent — but never *what* it concludes. Position, verdict, and confidence come from role + persona alone.
+
+Souls are deliberately **domain-free and persona-orthogonal**, so any soul composes with any role × persona. Two agents with identical role and persona but different souls reach the same verdict and voice it as different people.
+
+```text id="identity-three-axes"
+ROLE     = what it knows              (domain expertise)
+PERSONA  = how it reasons             (epistemic style)
+SOUL     = who it's like in the room  (temperament + voice — tone only)
+```
+
+Boundary test: **Persona** answers "how does it evaluate a claim?"; **Soul** answers "what is it like to be in the room with it?"
 
 ---
 
@@ -460,6 +483,9 @@ Agent = Role + Persona
 | Paranoid     | Assumes adversarial conditions      |
 | Ethical      | Prioritizes moral implications      |
 | Pragmatic    | Focuses on practical outcomes       |
+| Probabilistic | Thinks in base rates, EV, and tail risk |
+| Minimalist   | Fewest moving parts; complexity is debt |
+| Idealistic   | Pursues the principled first-best solution |
 
 ---
 
