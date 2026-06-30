@@ -1,6 +1,6 @@
 # Architecture Overview
 
-Concise reference for the Chairman, Judge, and Specialists. Full concept lives in `llm-council-concept.md` at repo root.
+Concise reference for the Chairman, Judge, and Specialists. Full concept lives in `docs/architecture.md`.
 
 ## Core Idea
 

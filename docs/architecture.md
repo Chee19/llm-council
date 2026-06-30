@@ -1,4 +1,3 @@
-````markdown id="p8r4nm"
 # Hierarchical LLM Council Architecture
 
 ## A Governed Multi-Agent Cognitive Intelligence Framework
@@ -152,7 +151,7 @@ Premise Objection     → "I cannot endorse X at all" (neither — flags the wha
 
 A Premise Objection is **neither agreement nor disagreement** on the how. It is excluded from the majority tally — the objector stepped off the question rather than losing it — and the Chairman surfaces it as a distinct, attributed opinion. Decisions on the *how* are still made by majority and surviving argument as before; the Chairman always still delivers the *how*; a lone objector never blocks it; but no objection is ever buried, and a chorus of them raises a prominent premise-risk flag for the user to weigh.
 
-Operational rules live in `.claude/council/protocols/intent-anchoring.md`.
+Operational rules live in `council/protocols/intent-anchoring.md`.
 
 ---
 
@@ -230,7 +229,6 @@ Operational rules live in `.claude/council/protocols/intent-anchoring.md`.
 
                 FINAL OUTPUT
 ```
-````
 
 ---
 
@@ -784,10 +782,6 @@ Strategic Interpretation
 
 This principle is foundational to the council architecture.
 
-```
-
-```
-
 ---
 
 # 10. Cognitive Separation of Powers
@@ -1157,6 +1151,3 @@ The goal is not to imitate a chatbot.
 
 The goal is to imitate institutional intelligence.
 
-```
-
-```

@@ -1,0 +1,26 @@
+{
+  "name": "llm-council",
+  "core": {
+    "path": "council",
+    "description": "Shared platform-neutral council protocols, roles, personas, souls, and references."
+  },
+  "providers": {
+    "claude": {
+      "adapter": "adapters/claude",
+      "installLayout": {
+        "commands": ".claude/commands",
+        "agents": ".claude/agents",
+        "core": ".claude/council"
+      },
+      "entrypoint": "/council"
+    },
+    "codex": {
+      "adapter": "adapters/codex/skills/llm-council",
+      "installLayout": {
+        "skill": "llm-council",
+        "bundledCore": "references/council"
+      },
+      "entrypoint": "Use the llm-council skill"
+    }
+  }
+}
