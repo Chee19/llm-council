@@ -58,6 +58,8 @@ Provider metadata lives in `llm-council.config.json`. New providers should add a
 
 ## Claude Usage
 
+<img src=".github/assets/terminal-demo-claude.svg" width="720" alt="Terminal demo: installing LLM Council into a Claude project and running /council">
+
 The Claude adapter lives in `adapters/claude/`.
 
 Install into a Claude project:
@@ -82,6 +84,8 @@ Then invoke the command as:
 ```
 
 ## Codex Usage
+
+<img src=".github/assets/terminal-demo-codex.svg" width="720" alt="Terminal demo: installing the LLM Council skill into Codex and invoking $llm-council">
 
 The Codex adapter lives in `adapters/codex/skills/llm-council/`.
 
